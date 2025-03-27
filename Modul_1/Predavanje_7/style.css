@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    background-color: red;
+    display: block;
+}
+
+.link {
+    background-color:green;
+    width: 100px;
+    height: 200px;
+    display: inline;
+}
+
+.f1Image {
+    width: 150px;
+}
