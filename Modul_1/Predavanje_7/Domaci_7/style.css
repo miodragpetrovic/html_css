@@ -6,16 +6,12 @@
 .container {
     max-width: 1100px;
     margin: auto;
-}
-
-.cardPosition {
-    display: inline-block;
-    width: 1000px;
+    padding: 10px;
 }
 
 .card {
-    display: block;
     width: 250px;
+    display: inline-block;
 }
 
 .cardImage {
@@ -26,5 +22,13 @@
 .cardContent {
     text-align: center;
     padding: 15px;
+}
+
+.cardTitle {
+    color: tomato;
+}
+
+.cardDescription {
+    color: gray;
 }
 
