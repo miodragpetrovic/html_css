@@ -1,0 +1,18 @@
+.pozadina {
+	background-color: bisque;
+}
+
+nav {
+	display: flex;
+	margin: 0;
+	background-color: bisque;
+}
+
+.centriranText {
+	text-align: center;
+}
+
+/* Klasa za boldovanje */
+.boldovanText {
+	font-weight: bold;
+}
