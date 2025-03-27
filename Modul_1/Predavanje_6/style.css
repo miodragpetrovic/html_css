@@ -2,14 +2,26 @@
 	background-color: black;
 	color: white;
 	margin: 0px 50px;
+	border: 10px solid blue;
 }
 
 .backgroundRed {
 	background-color: red;
 	margin: 100px;
+	border: 10px dashed black;
 }
 
 .backgroundGreen {
 	background-color: green;
 	margin: 0px 150px;
+	border: 10px double pink;
+}
+
+.titlePadding {
+	padding: 30px;
+}
+
+.buyButtonPadding {
+	padding: 25px;
+	margin: 30px;
 }
