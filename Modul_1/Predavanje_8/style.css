@@ -12,3 +12,13 @@ ul.listStyle {
 ol.listRoman {
 	list-style-type: upper-roman;
 }
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex p {
+	width: 50%;
+	background-color: burlywood;
+}
