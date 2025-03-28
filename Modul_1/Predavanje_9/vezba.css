@@ -1,12 +1,34 @@
 * {
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 .imageBackground {
-	background-image: url("images/wow.jpeg");
+	width: 100%;
+	height: 100vh;
+	background: url("images/wow.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100vw;
-	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.subSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+}
+
+.btn {
+	padding: 10px 30px;
+	border: none;
+	box-shadow: 2px 2px 4px #000000;
+	margin: 5px;
 }
