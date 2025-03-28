@@ -1,0 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.image {
+	background-image: url("images/wow.jpeg");
+	height: 500px;
+}
