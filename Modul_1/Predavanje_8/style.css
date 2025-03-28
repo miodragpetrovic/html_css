@@ -1,0 +1,12 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
+ul.listStyle {
+	list-style-type: square;
+}
+
+ol.listRoman {
+	list-style-type: upper-roman;
+}

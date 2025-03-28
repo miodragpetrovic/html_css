@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100vw;
+	height: 30vh;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+}
+
+.inlineBlock {
+	display: inline-block;
+}
+
+.flexBox {
+	display: flex;
+}
