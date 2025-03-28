@@ -4,6 +4,8 @@
 }
 
 .image {
-	background-image: url("images/wow.jpeg");
-	height: 500px;
+	background: url("images/wow.jpeg");
+	height: 2000px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
