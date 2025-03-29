@@ -95,6 +95,14 @@ a {
 	margin: 10px 0px;
 }
 
+/*:::: About me ::::*/
+
+.abotMe {
+	background-color: rgb(27, 27, 27);
+	padding: 100px 10px;
+	color: rgb(255, 255, 255);
+}
+
 /*:::: Contact section ::::*/
 
 .contactSection {
