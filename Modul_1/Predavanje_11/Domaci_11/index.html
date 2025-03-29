@@ -68,14 +68,44 @@
 
 			<section class="contactSection">
 				<div class="container">
+					<h2>Kontaktiere mich</h2>
+					<p>Hast du ein Projekt oder eine Idee, bei der ich helfen kann?</p>
 					<form action="">
-						<span class="inputText">
-							<label for="fname"></label>
-							<input type="text" placeholder="Vorname" required />
+						<label for="fname"></label>
+						<input
+							class="inputText"
+							type="text"
+							placeholder="Vorname"
+							required
+						/>
 
-							<label for="lname"></label>
-							<input type="text" placeholder="Nachname" required />
-						</span>
+						<label for="lname"></label>
+						<input
+							class="inputText"
+							type="text"
+							placeholder="Nachname"
+							required
+						/>
+
+						<label for="email"></label>
+						<input
+							class="inputText"
+							type="email"
+							placeholder="E-Mail"
+							required
+						/>
+						<label for="subject"></label>
+						<input
+							class="inputText"
+							type="text"
+							placeholder="Betreff"
+							required
+						/>
+						<textarea rows="10" name="messeg" id="messeg"></textarea>
+
+						<button class="btnContact" href="" placeholder="Senden">
+							Senden
+						</button>
 					</form>
 				</div>
 			</section>
@@ -85,6 +115,8 @@
 			<section class="contact"></section>
 		</main>
 
-		<footer></footer>
+		<footer class="footerSection">
+			<p>Copyright</p>
+		</footer>
 	</body>
 </html>
