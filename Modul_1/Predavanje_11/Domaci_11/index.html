@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 	<body>
-		<header>
+		<header class="headerNav">
 			<nav>
 				<ul>
 					<li><a href="">Home</a></li>
@@ -48,7 +48,7 @@
 
 		<main>
 			<div class="hero">
-				<section>
+				<section class="heroSection">
 					<article class="heroArticle">
 						<h1>Hallo, mein Name is Miodrag</h1>
 						<p>
@@ -69,59 +69,105 @@
 			</div>
 
 			<section class="abotMe">
-				<article>
+				<article class="articleWidth">
 					<header class="articleHeader">
-						<h2>Über mich</h2>
-						<p>sfsfffffffffffffffffffffffffff</p>
+						<h2><span class="titleColor">Über</span> mich</h2>
+						<p>
+							Mit über 12 Jahren Erfahrung in der IT-Branche habe ich meinen Weg
+							von den Grundlagen bis zur spezialisierten Entwicklung
+							durchlaufen. Meine Reise begann als Junior IT-Supporter, wo ich
+							erste Einblicke in die technische Welt erhielt. Anschließend
+							arbeitete ich als IT-Supporter und später als IT-Support
+							Coordinator, wo ich tiefere Kenntnisse im IT-Management und in der
+							Systembetreuung erlangte.
+						</p>
+						<p>
+							Danach wechselte ich in die Welt der Mobiltechnologie als Mobile
+							Engineer bei Samsung, wo ich an innovativen Lösungen im Bereich
+							mobiler Endgeräte arbeitete. Schliesslich habe ich meine
+							Leidenschaft für Web-Technologien entdeckt und mich als
+							Webentwickler darauf spezialisiert, moderne und leistungsstarke
+							digitale Lösungen zu gestalten.
+						</p>
+						<p>
+							Heute nutze ich mein breit gefächertes Wissen, um intuitive,
+							effiziente und benutzerfreundliche Webanwendungen zu entwickeln.
+							🚀
+						</p>
+					</header>
+					<figure class="imageFigure">
+						<img class="aboutImage" src="images/workplace.png" alt="" />
+					</figure>
+				</article>
+			</section>
+
+			<section class="referencesSection">
+				<header class="mainHeanderReferences">
+					<h2>Referenzen</h2>
+				</header>
+				<article class="articleBox">
+					<header class="headerHeader">
+						<h3>Sargas IT GmbH</h3>
+						<p>refgeg</p>
+					</header>
+				</article>
+				<article class="articleBox">
+					<header class="headerHeader">
+						<h3>Referenzen</h3>
+						<p>refgeg</p>
+					</header>
+				</article>
+				<article class="articleBox">
+					<header class="headerHeader">
+						<h3>Referenzen</h3>
+						<p>refgeg</p>
 					</header>
 				</article>
 			</section>
 
-			<div class="bg">
-				<section>
-					<div>
-						<h2>Kontaktiere mich</h2>
-						<p>Hast du ein Projekt oder eine Idee, bei der ich helfen kann?</p>
-						<form action="">
-							<label for="fname"></label>
-							<input
-								class="inputText"
-								type="text"
-								placeholder="Vorname"
-								required
-							/>
+			<section class="sectionContact">
+				<div class="container">
+					<h2>Kontaktiere mich</h2>
+					<p>Hast du ein Projekt oder eine Idee, bei der ich helfen kann?</p>
+					<form action="">
+						<label for="fname"></label>
+						<input
+							class="inputText"
+							type="text"
+							placeholder="Vorname"
+							required
+						/>
 
-							<label for="lname"></label>
-							<input
-								class="inputText"
-								type="text"
-								placeholder="Nachname"
-								required
-							/>
+						<label for="lname"></label>
+						<input
+							class="inputText"
+							type="text"
+							placeholder="Nachname"
+							required
+						/>
 
-							<label for="email"></label>
-							<input
-								class="inputText"
-								type="email"
-								placeholder="E-Mail"
-								required
-							/>
-							<label for="subject"></label>
-							<input
-								class="inputText"
-								type="text"
-								placeholder="Betreff"
-								required
-							/>
-							<textarea rows="10" name="messeg" id="messeg"></textarea>
+						<label for="email"></label>
+						<input
+							class="inputText"
+							type="email"
+							placeholder="E-Mail"
+							required
+						/>
+						<label for="subject"></label>
+						<input
+							class="inputText"
+							type="text"
+							placeholder="Betreff"
+							required
+						/>
+						<textarea rows="10" name="messeg" id="messeg"></textarea>
 
-							<button class="btnContact" href="" placeholder="Senden">
-								Senden
-							</button>
-						</form>
-					</div>
-				</section>
-			</div>
+						<button class="btnContact" href="" placeholder="Senden">
+							Senden
+						</button>
+					</form>
+				</div>
+			</section>
 		</main>
 
 		<footer class="footerSection">

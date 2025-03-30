@@ -14,20 +14,20 @@ h2 {
 	color: rgb(255, 255, 255);
 }
 
+h3 {
+	font-size: 1.5rem;
+	color: rgb(255, 255, 255);
+}
+
 p {
 	font-size: 1.1rem;
 	color: rgb(255, 255, 255);
 	line-height: 30px;
 }
 
-.articleHeader {
-	background-color: transparent;
-	width: 100%;
-}
-
 /*:::: Navigation ::::***/
 
-header {
+.headerNav {
 	background-color: rgb(27, 27, 27);
 	width: 100%;
 	position: fixed;
@@ -42,9 +42,8 @@ nav {
 nav ul {
 	background-color: rgb(27, 27, 27);
 	display: flex;
-	padding: 20px 10px;
 	justify-content: space-between;
-	align-items: center;
+	padding: 20px 10px;
 	list-style-type: none;
 }
 
@@ -65,24 +64,24 @@ a {
 /*::::  Hero section ::::*/
 
 .hero {
-	width: 99vw;
+	width: 100vw;
 	height: 100vh;
 	background-size: cover;
 	background-color: rgb(27, 27, 27);
 	color: rgb(255, 255, 255);
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
-section {
-	width: 1200px;
-	margin: auto;
-	display: flex;
-	justify-content: center;
+.heroSection {
+	max-width: 1200px;
+	display: inline-flex;
 	align-items: center;
 }
 
 .heroArticle {
+	width: 700px;
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
@@ -91,6 +90,7 @@ section {
 
 .profilPicture {
 	width: 400px;
+	border: 4px solid rgb(247, 84, 72);
 	border-radius: 100%;
 	padding: 10px;
 }
@@ -106,15 +106,73 @@ section {
 /*:::: About me ::::*/
 
 .abotMe {
+	width: 100%;
 	background-color: rgb(27, 27, 27);
 	padding: 100px 10px;
+}
+
+.articleWidth {
+	width: 1200px;
+	background-color: rgb(27, 27, 27);
 	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.articleHeader {
+	max-width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.titleColor {
+	color: rgb(247, 84, 72);
+}
+
+.imageFigure {
+	max-width: 50%;
+}
+
+.aboutImage {
+	border-radius: 20px;
+	border: 8px solid rgb(255, 255, 255);
+}
+
+/*:::: References section ::::*/
+
+.referencesSection {
+	width: 100%;
+	background-color: rgb(27, 27, 27);
+	padding: 100px 10px;
+}
+
+.mainHeanderReferences {
+	position: relative;
+	clear: both;
+}
+
+.articleBox {
+	width: 400px;
+	background-color: rgb(27, 31, 36);
+	justify-content: center;
+	display: flex;
+	margin: 4px;
+	padding: 30px 10px;
+	border-radius: 15px;
+	text-align: center;
 }
 
 /*:::: Contact section ::::*/
 
-.bg {
+.sectionContact {
+	width: 100%;
 	background-color: rgb(27, 27, 27);
+}
+
+.container {
+	max-width: 1200px;
 }
 
 .inputText {
