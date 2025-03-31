@@ -7,6 +7,7 @@
 
 h1 {
 	font-size: 2.5rem;
+	color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -25,190 +26,207 @@ p {
 	line-height: 30px;
 }
 
-/*:::: Navigation ::::***/
-
-.headerNav {
-	background-color: rgb(27, 27, 27);
-	width: 100%;
-	position: fixed;
+.dotColorTitles {
+	color: rgb(247, 84, 72);
 }
 
-nav {
-	width: 900px;
-	margin: auto;
-	padding: 5px;
+/***  Navigation  ***/
+
+.headerNav {
+	background-color: rgb(27, 31, 36);
+	width: 100%;
 }
 
 nav ul {
-	background-color: rgb(27, 27, 27);
+	width: 900px;
+	margin: auto;
+	padding: 20px 10px;
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 10px;
+	align-items: center;
+}
+
+li {
 	list-style-type: none;
+}
+
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
 }
 
 .socialIconNav {
 	display: flex;
-	gap: 10px;
-}
-
-a {
-	text-decoration: none;
-	color: rgb(255, 255, 255);
+	gap: 15px;
 }
 
 .icons {
 	width: 25px;
 }
 
-/*::::  Hero section ::::*/
-
-.hero {
-	width: 100vw;
-	height: 100vh;
-	background-size: cover;
-	background-color: rgb(27, 27, 27);
-	color: rgb(255, 255, 255);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.heroSection {
-	max-width: 1200px;
-	display: inline-flex;
-	align-items: center;
-}
-
-.heroArticle {
-	width: 700px;
-	display: flex;
-	flex-direction: column;
-	gap: 30px;
-	padding: 10px;
-}
-
-.profilPicture {
-	width: 400px;
-	border: 4px solid rgb(247, 84, 72);
-	border-radius: 100%;
-	padding: 10px;
-}
-
 .btn {
 	background-color: rgb(247, 84, 72);
-	width: 100px;
-	text-align: center;
 	padding: 10px 30px;
-	display: flex;
+	border-radius: 10px;
 }
 
-/*:::: About me ::::*/
+/*** Hero Section ***/
 
-.abotMe {
+.heroSection {
+	background-color: rgb(27, 31, 36);
 	width: 100%;
-	background-color: rgb(27, 27, 27);
-	padding: 100px 10px;
-}
-
-.articleWidth {
-	width: 1200px;
-	background-color: rgb(27, 27, 27);
-	color: rgb(255, 255, 255);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
-.articleHeader {
-	max-width: 50%;
-	display: flex;
-	flex-direction: column;
-	gap: 30px;
+.mainHeroSection {
+	width: 1200px;
+	padding: 0x 10px;
 }
 
-.titleColor {
+.articelHero {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.helloColor {
 	color: rgb(247, 84, 72);
 }
 
-.imageFigure {
-	max-width: 50%;
+.heroProfilImage {
+	border-radius: 100%;
+	border: 4px solid rgb(247, 84, 72);
+	width: 282;
+	height: 296px;
+}
+
+/*** About me section ***/
+
+.aboutMe {
+	background-color: rgb(17, 17, 17);
+	width: 100%;
+	max-width: 100%;
+	padding: 100px 10px;
+}
+
+.aboutMeBg {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.aboutTextImg {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.aboutText {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	gap: 20px;
+	padding-right: 20px;
 }
 
 .aboutImage {
 	border-radius: 20px;
-	border: 8px solid rgb(255, 255, 255);
 }
 
-/*:::: References section ::::*/
+/*** Portfolio section ***/
 
-.referencesSection {
+.portfolioBg {
 	width: 100%;
-	background-color: rgb(27, 27, 27);
+	background-color: rgb(27, 31, 36);
+}
+
+.portfolioPosition {
+	width: 1420px;
+	margin: 0 auto;
 	padding: 100px 10px;
 }
 
-.mainHeanderReferences {
-	position: relative;
-	clear: both;
-}
-
-.articleBox {
-	width: 400px;
-	background-color: rgb(27, 31, 36);
-	justify-content: center;
-	display: flex;
-	margin: 4px;
-	padding: 30px 10px;
-	border-radius: 15px;
+.titlePortfolio {
+	padding-bottom: 50px;
 	text-align: center;
 }
 
-/*:::: Contact section ::::*/
-
-.sectionContact {
-	width: 100%;
-	background-color: rgb(27, 27, 27);
-}
-
-.container {
-	max-width: 1200px;
-}
-
-.inputText {
+.articleBox {
 	display: flex;
-	justify-content: center;
-	gap: 5px;
-	margin: 30px 2px;
+	padding: 5px;
+	text-align: center;
 }
 
-input,
-textarea {
+.headerAndText {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.imagesPortfolio {
+	width: 380px;
+	border-radius: 10px;
+	filter: drop-shadow(5px 5px 10px #000000);
+}
+
+/*** Footer ***/
+
+.contactBg {
+	background-color: rgb(17, 17, 17);
 	width: 100%;
-	background-color: rgb(36, 36, 36);
-	border: 1px solid rgb(131, 131, 131);
-	padding: 10px 10px;
+}
+
+.containerContact {
+	padding: 100px 10px;
+}
+
+.headerTitle {
+	text-align: center;
+	width: 100%;
+	justify-content: center;
+}
+
+form {
+	padding: 30px 10px;
+	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	gap: 5px;
+}
+
+input {
+	padding: 10px 5px;
+	background-color: rgb(27, 31, 36);
+	border: none;
 	color: rgb(255, 255, 255);
+}
+
+textarea {
+	background-color: rgb(27, 31, 36);
+	color: rgb(255, 255, 255);
+	padding: 5px;
+	border: none;
+	margin: 6px 0px;
 }
 
 .btnContact {
 	background-color: rgb(247, 84, 72);
+	padding: 10px 30px;
 	text-align: center;
-	padding: 10px 40px;
-	margin: 20px 0px;
-	border: none;
 	border-radius: 5px;
-	color: rgb(255, 255, 255) !important;
-	font-size: 1.2rem;
+	margin: 10px 0px;
 }
 
-/*:::: Footer section ::::*/
-
-.footerSection {
-	background-color: rgb(14, 14, 14);
-	display: flex;
-	justify-content: center;
-	color: rgb(255, 255, 255);
-	padding: 20px 5px;
+footer {
+	background-color: rgb(27, 31, 36);
+	text-align: center;
+	padding: 10px 10px;
 	font-size: 1rem;
 }
