@@ -61,7 +61,7 @@ body {
 	.carList {
 		display: grid;
 		grid-template-columns: 185px 185px;
-		margin: auto;
+		margin: 0 auto;
 	}
 
 	.car img {
