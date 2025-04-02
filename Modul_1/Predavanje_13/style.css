@@ -5,7 +5,7 @@
 
 .w-45 {
 	width: 45%;
-	background-color: aquamarine;
+	background-color: beige;
 }
 
 .w-10 {
@@ -28,4 +28,29 @@
 	white-space: nowrap;
 	margin-top: 600px;
 	font-size: 2.1rem;
+}
+
+.imageTitle:hover {
+	color: rgb(218, 41, 41);
+	cursor: pointer;
+}
+
+.rightContent {
+	padding: 4.5rem;
+}
+
+.rightContent h1 {
+	font-size: 2.5rem;
+}
+
+.rightContent p {
+	font-size: 1.5rem;
+}
+
+.horizotalHeight {
+	height: 2px;
+	border: none;
+	background-color: rgb(0, 0, 0);
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
