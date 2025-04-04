@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto Mono", monospace;
+}
+
+.carFirSaleTable {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.titleHead {
+	text-align: center;
+}
+
+th {
+	padding: 10px;
+	background-color: #046652;
+	color: #fff;
+	font-weight: 700;
+}
+
+td {
+	color: rgb(0, 0, 0);
+}
+
+tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+tr:nth-child(even) {
+	background-color: #d6d6d6;
+}
+
+@media only screen and (max-width: 600px) {
+	.carFirSaleTable {
+		width: 100%;
+		padding: 8px;
+		text-align: center;
+		font-size: 0.8rem;
+	}
+
+	td {
+		padding: 8px;
+	}
+
+	tr {
+		width: 300px;
+	}
+}
