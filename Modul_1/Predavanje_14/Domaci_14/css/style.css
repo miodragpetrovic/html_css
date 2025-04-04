@@ -4,7 +4,7 @@
 	font-family: "Roboto Mono", monospace;
 }
 
-.carFirSaleTable {
+.carForSaleTable {
 	width: 100%;
 	border-collapse: collapse;
 	text-align: left;
@@ -15,7 +15,7 @@
 }
 
 th {
-	padding: 10px;
+	padding: 10px 2px;
 	background-color: #046652;
 	color: #fff;
 	font-weight: 700;
@@ -23,6 +23,7 @@ th {
 
 td {
 	color: rgb(0, 0, 0);
+	padding: 5px;
 }
 
 tr:nth-child(odd) {
@@ -32,8 +33,8 @@ tr:nth-child(even) {
 	background-color: #d6d6d6;
 }
 
-@media only screen and (max-width: 600px) {
-	.carFirSaleTable {
+@media screen and (max-width: 600px) {
+	.carForSaleTable {
 		width: 100%;
 		padding: 8px;
 		text-align: center;
@@ -42,9 +43,5 @@ tr:nth-child(even) {
 
 	td {
 		padding: 8px;
-	}
-
-	tr {
-		width: 300px;
 	}
 }
