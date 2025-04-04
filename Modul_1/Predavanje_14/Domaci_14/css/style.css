@@ -10,15 +10,12 @@
 	text-align: left;
 }
 
-.titleHead {
-	text-align: center;
-}
-
 th {
 	padding: 10px 2px;
 	background-color: #046652;
 	color: #fff;
 	font-weight: 700;
+	text-align: center;
 }
 
 td {
