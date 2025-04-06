@@ -11,3 +11,11 @@
 .gameCoverImg {
 	width: 270px;
 }
+
+.btn {
+	background-color: rgb(27, 27, 27);
+	color: rgb(255, 255, 255);
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px;
+}
