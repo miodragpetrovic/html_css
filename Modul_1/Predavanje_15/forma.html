@@ -7,10 +7,27 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<form action="">
-			<input type="text" placeholder="Unesite vase ime" required />
-			<input type="number" placeholder="Unesite vase godine" required />
-			<input type="email" placeholder="email" required />
+		<form action="ime">
+			<label for="">Unesite vase ime</label>
+			<input type="text" id="ime" placeholder="Unesite vase ime" required />
+
+			<label for="adresa">Adresa</label>
+			<input type="number" id="adresa" placeholder="Vase godine" required />
+
+			<label for="mail">Email</label>
+			<input type="email" id="mail" placeholder="email" required />
+
+			<select>
+				<option value="" disabled selected>Izaberite grad</option>
+				<option value="">Beograd</option>
+				<option value="">Novi Sad</option>
+				<option value="">Subotica</option>
+			</select>
+
+			<input type="checkbox" id="check" /> Test
+			<input type="checkbox" id="check" /> Test
+			<input type="checkbox" id="check" /> Test
+
 			<input type="submit" value="Posalji email" />
 		</form>
 	</body>
