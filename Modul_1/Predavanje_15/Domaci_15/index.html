@@ -17,6 +17,7 @@
 							id="fname"
 							placeholder="Unesite vasi ime"
 							required
+							class="inputField"
 						/>
 					</div>
 
@@ -27,6 +28,7 @@
 							id="address"
 							placeholder="Unesite vasu adresu"
 							required
+							class="inputField"
 						/>
 					</div>
 
@@ -37,10 +39,11 @@
 							id="mail"
 							placeholder="Unesite vasu adresu"
 							required
+							class="inputField"
 						/>
 					</div>
 
-					<div>
+					<div class="selectField">
 						<label for="">Odaberite grad:</label>
 						<select>
 							<option disabled selected>U kom gradu zivis</option>
@@ -53,12 +56,14 @@
 
 					<div>
 						<p>Odaberite nacin placanja</p>
-
-						<input name="payment" type="radio" />
-						<label for="">Kreditnom karticom</label>
-
-						<input name="payment" type="radio" />
-						<label for="">Pouzecem</label>
+						<div class="radioBtn">
+							<input name="payment" type="radio" />
+							<label for="">Kreditnom karticom</label>
+						</div>
+						<div class="radioBtn">
+							<input name="payment" type="radio" />
+							<label for="">Pouzecem</label>
+						</div>
 					</div>
 
 					<div>

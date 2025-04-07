@@ -14,3 +14,31 @@
 	align-items: center;
 	height: calc(100vh - 200px);
 }
+
+.inputField {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 7px;
+	border-radius: 5px;
+	border: 1px solid rgb(95, 95, 95);
+	margin: 10px 0px;
+}
+
+.selectField {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+select {
+	padding: 7px;
+	border-radius: 5px;
+}
+
+.radioBtn {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	width: 400px;
+}
