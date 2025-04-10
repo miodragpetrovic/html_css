@@ -8,3 +8,49 @@ body {
 	width: 100vw;
 	height: 100vh;
 }
+
+.formContent {
+	display: flex;
+	margin: auto;
+	max-width: 600px;
+}
+
+.placeHolderInput {
+	margin: 2px 0px;
+	padding: 8px;
+}
+
+.inputField {
+	display: flex;
+	padding: 8px;
+	width: 320px;
+}
+
+.selectField select {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 5px;
+	padding: 8px;
+	width: 95%;
+	margin: 8px;
+}
+
+.labelSelect {
+	padding-left: 10px;
+}
+
+.radioTitle {
+	padding: 10px 0px;
+}
+
+.btn {
+	padding: 10px 10px;
+	width: 320px;
+	display: flex;
+	margin: auto;
+	background-color: #3fa942;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+}

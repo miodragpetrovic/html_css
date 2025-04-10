@@ -7,73 +7,71 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 	<body>
-		<div class="container">
-			<div class="formContent">
-				<form action="">
-					<div>
-						<label for="fname">Ime:</label>
-						<input
-							type="text"
-							id="fname"
-							placeholder="Unesite vasi ime"
-							required
-							class="inputField"
-						/>
-					</div>
+		<div class="formContent">
+			<form action="">
+				<div class="placeHolderInput">
+					<label for="fname">Ime:</label>
+					<input
+						type="text"
+						id="fname"
+						placeholder="Unesite vasi ime"
+						required
+						class="inputField"
+					/>
+				</div>
 
-					<div>
-						<label for="address">Adresa:</label>
-						<input
-							type="text"
-							id="address"
-							placeholder="Unesite vasu adresu"
-							required
-							class="inputField"
-						/>
-					</div>
+				<div class="placeHolderInput">
+					<label for="address">Adresa:</label>
+					<input
+						type="text"
+						id="address"
+						placeholder="Unesite vasu adresu"
+						required
+						class="inputField"
+					/>
+				</div>
 
-					<div>
-						<label for="mail">Email:</label>
-						<input
-							type="email"
-							id="mail"
-							placeholder="Unesite vasu adresu"
-							required
-							class="inputField"
-						/>
-					</div>
+				<div class="placeHolderInput">
+					<label for="mail">Email:</label>
+					<input
+						type="email"
+						id="mail"
+						placeholder="Unesite vasu adresu"
+						required
+						class="inputField"
+					/>
+				</div>
 
-					<div class="selectField">
-						<label for="">Odaberite grad:</label>
-						<select>
-							<option disabled selected>U kom gradu zivis</option>
-							<option>Curija</option>
-							<option>Jagodina</option>
-							<option>Paracin</option>
-							<option>Subotica</option>
-						</select>
-					</div>
+				<div class="selectField">
+					<label class="labelSelect" for="">Odaberite grad:</label>
+					<select>
+						<option disabled selected>U kom gradu zivis</option>
+						<option>Curija</option>
+						<option>Jagodina</option>
+						<option>Paracin</option>
+						<option>Subotica</option>
+					</select>
+				</div>
 
-					<div>
-						<p>Odaberite nacin placanja</p>
-						<div class="radioBtn">
-							<input name="payment" type="radio" />
-							<label for="">Kreditnom karticom</label>
-						</div>
-						<div class="radioBtn">
-							<input name="payment" type="radio" />
-							<label for="">Pouzecem</label>
-						</div>
+				<div class="placeHolderInput">
+					<p class="radioTitle">Odaberite nacin placanja</p>
+					<div class="radioBtn">
+						<input name="payment" type="radio" />
+						<label for="">Kreditnom karticom</label>
 					</div>
-
-					<div>
-						<input type="checkbox" />
-						<label for="">Zelim da primam meilove sa ponudama</label>
+					<div class="radioBtn">
+						<input name="payment" type="radio" />
+						<label for="">Pouzecem</label>
 					</div>
+				</div>
 
-					<input type="submit" value="Posalji email" />
-				</form>
-			</div>
+				<div class="placeHolderInput">
+					<input type="checkbox" />
+					<label for="">Zelim da primam meilove sa ponudama</label>
+				</div>
+
+				<input class="btn" type="submit" value="Posalji email" />
+			</form>
 		</div>
 	</body>
 </html>
