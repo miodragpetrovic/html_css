@@ -5,12 +5,113 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
-		<div class="container bg-danger text-white">
-			<h2>Coding</h2>
-		</div>
+		<header>
+			<nav class="navbar navbar-expand-lg bg-body-white">
+				<div class="container">
+					<a class="navbar-brand fw-bold fs-4" href="#">Vorena.</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Store</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+							</li>
+						</ul>
+						<div class="d-flex gap-4 align-items-center">
+							<i class="bi bi-person-circle fs-5"></i>
+
+							<i class="bi bi-cart2 fs-4"></i>
+							<!-- <button class="btn btn-outline-success" type="submit">
+								Search
+							</button> -->
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="container pb-5">
+				<div
+					class="position-relative d-flex align-items-center justify-content-center"
+				>
+					<img
+						src="img/Clothing.jpg"
+						alt="Clothing"
+						class="img-fluid w-100 rounded"
+					/>
+					<div
+						class="position-absolute bg-dark opacity-75 p-5 text-center col-6 text-white"
+					>
+						<h1>Style Made Simple</h1>
+						<p>
+							Explore our curated collection of fashion-forward pieces that
+							combine comfort, quality, and style. Whether you're dressing up
+							for a night out or keeping it casual, we’ve got the perfect outfit
+							for you. Fast shipping & easy returns included!
+						</p>
+						<button type="button" class="btn btn-light fw-bold">
+							Shop Now
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="container bg-light">
+				<h2 class="text-center py-3">NEW PRODUCTS</h2>
+				<div class="d-flex justify-content-center align-items-center gap-2">
+					<article>
+						<img src="img/Antony-Morato.webp" alt="Antony Morato" width="400" />
+						<h2 class="py-2">Antony Morato</h2>
+						<p>Lorem ipsum dolor sit amet consectetur</p>
+					</article>
+					<article>
+						<img src="img/cot-shirt.png" alt="Cot shirt" width="400" />
+						<h2 class="py-2">Cot shirt</h2>
+						<p>Lorem ipsum dolor sit amet consectetur</p>
+					</article>
+					<article>
+						<img
+							src="img/cw_woven-linen-nicole.png"
+							alt="CW Nicole"
+							width="400"
+						/>
+						<h2 class="py-2">CW Nicole</h2>
+						<p>Lorem ipsum dolor sit amet consectetur</p>
+					</article>
+				</div>
+				<div class="d-flex justify-content-center py-5">
+					<button type="button" class="btn btn-dark">VIEW MORE</button>
+				</div>
+			</section>
+		</main>
+
+		<footer></footer>
 		<script src="js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
